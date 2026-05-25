@@ -1,5 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+void comp()
+{
+  int x = 1.0;
+  int *p = new int;
+  *p++ = 2;
+
+  int q;
+  int p = q;
+  free(&p);
+}
 
 void test()
 {
