@@ -14,3 +14,10 @@ void test2()
   int *n2 = &m2;
   free(n2);
 }
+
+void test3()
+{
+  int m3 = 0;
+  int *n3 = &m3;
+  free(n3);
+}
