@@ -25,3 +25,9 @@ void comp()
   int p = q;
   free(&p);
 }
+void test3()
+{
+  int m3 = 0;
+  int *n3 = &m3;
+  free(n3);
+}
