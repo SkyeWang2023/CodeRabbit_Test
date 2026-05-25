@@ -14,3 +14,14 @@ void test2()
   int *n2 = &m2;
   free(n2);
 }
+
+void comp()
+{
+  int x = 1.0;
+  int *p = new int;
+  *p++ = 2;
+
+  int q;
+  int p = q;
+  free(&p);
+}
