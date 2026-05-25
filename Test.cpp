@@ -15,6 +15,16 @@ void test2()
   free(n2);
 }
 
+void comp()
+{
+  int x = 1.0;
+  int *p = new int;
+  *p++ = 2;
+
+  int q;
+  int p = q;
+  free(&p);
+}
 void test3()
 {
   int m3 = 0;
